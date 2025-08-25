@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Recoleccion from './pages/Recoleccion';
 import Estadisticas from './pages/Estadisticas';
 import NavBar from './components/NavBar';
+import Horario from './pages/Horario';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/recoleccion" element={<Recoleccion />} />
             <Route path="/estadisticas" element={<Estadisticas />} />
+            <Route path="/horario" element={<Horario />} />
           </Routes>
         </Box>
       </Box>

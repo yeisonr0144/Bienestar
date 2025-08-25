@@ -11,6 +11,7 @@ export default function NavBar() {
           <Link as={RouterLink} to="/">Inicio</Link>
           <Link as={RouterLink} to="/recoleccion">Recolección</Link>
           <Link as={RouterLink} to="/estadisticas">Estadísticas</Link>
+          <Link as={RouterLink} to="/horario">Horario</Link>
         </HStack>
       </Flex>
     </Box>
